@@ -1,0 +1,33 @@
+body{
+  background-color:#3B3B3B; 
+}
+
+#l{
+  position: relative;
+  margin-left: 43%;
+  margin-top: 20%;
+}
+
+.login{
+  background-color:#F7F7F7;
+}
+
+#usrIN{
+  overflow: hidden;
+  width: 25%;
+  position: relative;
+}
+
+#pwIN{
+  overflow: hidden;
+  width: 25%;
+  position: relative;
+  top: 10px;
+}
+
+#s{
+  position: absolute;
+  left: -9999px; 
+  width: 0px; 
+  height: 1px;
+}
