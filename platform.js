@@ -1,3 +1,7 @@
+// Copyright (c) 2015 Menard Z. Soliven
+// Distributed under the MIT software license
+// See license.txt or http://www.opensource.org/licenses/mit-license.php
+
 module.exports = function(app){
   var mongo = require('mongodb');
   var monk = require('monk');

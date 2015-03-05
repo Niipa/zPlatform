@@ -18,7 +18,12 @@ $RECYCLE.BIN/
 *.lnk
 
 # cert directory
+# Contains SSL certificates
 certs/
+
+# app directory
+# Contains apps
+apps/
 
 # =========================
 # Operating System Files

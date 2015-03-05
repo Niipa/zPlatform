@@ -1,3 +1,7 @@
+// Copyright (c) 2015 Menard Z. Soliven
+// Distributed under the MIT software license
+// See license.txt or http://www.opensource.org/licenses/mit-license.php
+
 var https = require('https');
 var express = require('express');
 var session = require('express-session');
