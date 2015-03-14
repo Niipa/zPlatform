@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 var sessionStore = session(
   {
     secret: 'xs2@*kli13mcl406-XmeiAn2#casf', 
-    cookie: {maxAge: 900}, 
+    cookie: { maxAge: 900}, 
     resave: true, 
     saveUninitialized: true,
     secure: true
@@ -27,9 +27,8 @@ var zel = require('./platform');
 zel(app, express);
 
 var options = {
-  key: filesys.readFileSync('certs/key.pem'),
-  cert: filesys.readFileSync('certs/cert.pem')
+  key: fs.readFileSync('certs/key.pem');
+  cert: fs.readFileSync('certs/cert.pem');
 };
 
-console.log('Listening, 27890');
 https.createServer(options, app).listen(27890);
