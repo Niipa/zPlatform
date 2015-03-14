@@ -25,6 +25,9 @@ certs/
 # Contains apps
 apps/
 
+# db
+dbCreds
+
 # =========================
 # Operating System Files
 # =========================
